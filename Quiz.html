@@ -1,0 +1,177 @@
+
+<!-- HTML Code for Quiz Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="icon.png" type="image/icon type">
+    <link rel="stylesheet" href="./Quiz.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chewy&family=Dancing+Script:wght@700&family=Do+Hyeon&family=Fredoka+One&family=Lobster&family=Luckiest+Guy&family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Domine:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Web Dev Quiz</title>
+</head>
+<script src="./Quiz.js"></script>
+<body>
+    <div id="backgroundimg">
+        <div id="College">Web Development Quiz (HTML)</div>
+    </div>
+
+    <div id="instruction_section">
+        <div id="instruction_title">Instructions :</div>
+        <div id="instruction_list">
+            <ol>
+                <li>If You see the solution it will be counted as wrong solution i.e, You are not able to solve that question</li>
+                <li>If You not attempt the question it will be counted as wrong solution i.e, You have not attempted the Question </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="Questions">
+        HTML stands for
+        <br>
+        <div id="q1_opt1"><input type="radio" name="Ques1" id="q1_op1" value="a">HighText Machine Language<br></div>
+        <div id="q1_opt2"><input type="radio" name="Ques1" id="q1_op2" value="b" >HyperText and links Markup Language<br></div>
+        <div id="q1_opt3"><input type="radio" name="Ques1" id="q1_op3" value="c">HyperText Markup Language<br></div>
+        <div id="q1_opt4"><input type="radio" name="Ques1" id="q1_op4" value="d">None of these<br></div>
+        <button class="show" onclick="show_ques1()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        The correct sequence of HTML tags for starting a webpage is
+        <br>
+        <div id="q2_opt1"><input type="radio" name="Ques2" id="q2_op1" value="a">Head, Title, HTML, body<br></div>
+        <div id="q2_opt2"><input type="radio" name="Ques2" id="q2_op2" value="b">HTML, Body, Title, Head<br></div>
+        <div id="q2_opt3"><input type="radio" name="Ques2" id="q2_op3" value="c">HTML, Head, Title, Body<br></div>
+        <div id="q2_opt4"><input type="radio" name="Ques2" id="q2_op4" value="d">All are Correct<br></div>
+        <button class="show" onclick="show_ques2()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        Which of the following element is responsible for making the text bold in HTML?
+        <br>
+        <div id="q3_opt1"><input type="radio" name="Ques3" id="q3_op1" value="a">&lt;pre&gt;<br></div>
+        <div id="q3_opt2"><input type="radio" name="Ques3" id="q3_op2" value="b">&lt;same&gt;<br></div>
+        <div id="q3_opt3"><input type="radio" name="Ques3" id="q3_op3" value="c">&lt;font&gt;<br></div>
+        <div id="q3_opt4"><input type="radio" name="Ques3" id="q3_op4" value="d">&lt;b&gt;<br></div>
+        <button class="show" onclick="show_ques3()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        Which of the following tag is used for inserting the largest heading in HTML?
+        <br>
+        <div id="q4_opt1"><input type="radio" name="Ques4" id="q4_op1" value="a">&lt;h3&gt;<br></div>
+        <div id="q4_opt2"><input type="radio" name="Ques4" id="q4_op2" value="b">&lt;h1&gt;<br></div>
+        <div id="q4_opt3"><input type="radio" name="Ques4" id="q4_op3" value="c">&lt;h5&gt;<br></div>
+        <div id="q4_opt4"><input type="radio" name="Ques4" id="q4_op4" value="d">&lt;h8&gt;<br></div>
+        <button class="show" onclick="show_ques4()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        How to create an unordered list (a list with the list items in bullets) in HTML?
+        <br>
+        <div id="q5_opt1"><input type="radio" name="Ques5" id="q5_op1" value="a">&lt;ul&gt;<br></div>
+        <div id="q5_opt2"><input type="radio" name="Ques5" id="q5_op2" value="b">&lt;ol&gt;<br></div>
+        <div id="q5_opt3"><input type="radio" name="Ques5" id="q5_op3" value="c">&lt;list&gt;<br></div>
+        <div id="q5_opt4"><input type="radio" name="Ques5" id="q5_op4" value="d">&lt;li&gt;<br></div>
+        <button class="show" onclick="show_ques5()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        How to create a hyperlink in HTML?
+        <br>
+        <div id="q6_opt1"><input type="radio" name="Ques6" id="q6_op1" value="a">&lt;a href = "www.htmlquiz.com"&gt; HTML Quiz &lt;a&gt;<br></div>
+        <div id="q6_opt2"><input type="radio" name="Ques6" id="q6_op2" value="b">&lt;a url = "www.htmlquiz.com"&gt; HTML Quiz &lt;a&gt;<br></div>
+        <div id="q6_opt3"><input type="radio" name="Ques6" id="q6_op3" value="c">&lt;a href = www.htmlquiz.com&gt; HTML Quiz &lt;a&gt;<br></div>
+        <div id="q6_opt4"><input type="radio" name="Ques6" id="q6_op4" value="d">&lt;a&gt; HTML Quiz &lt;a&gt;<br></div>
+        <button class="show" onclick="show_ques6()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        How to insert an image in HTML?
+        <br>
+        <div id="q7_opt1"><input type="radio" name="Ques7" id="q7_op1" value="a">&lt;img href = "jtp.png" /&gt;<br></div>
+        <div id="q7_opt2"><input type="radio" name="Ques7" id="q7_op2" value="b">&lt;img url = "jtp.png" /&gt;<br></div>
+        <div id="q7_opt3"><input type="radio" name="Ques7" id="q7_op3" value="c">&lt;img src = "jtp.png" /&gt;<br></div>
+        <div id="q7_opt4"><input type="radio" name="Ques7" id="q7_op4" value="d">None<br></div>
+        <button class="show" onclick="show_ques7()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        Which of the following is the correct way to send mail in HTML?
+        <br>
+        <div id="q8_opt1"><input type="radio" name="Ques8" id="q8_op1" value="a">&lt;a href = "mailto:xy@y"&gt;<br></div>
+        <div id="q8_opt2"><input type="radio" name="Ques8" id="q8_op2" value="b">&lt;a href = "mailfrom: xy@y""&gt;<br></div>
+        <div id="q8_opt3"><input type="radio" name="Ques8" id="q8_op3" value="c">&lt;mail to="xy@y"&gt;<br></div>
+        <div id="q8_opt4"><input type="radio" name="Ques8" id="q8_op4" value="d">None<br></div>
+        <button class="show" onclick="show_ques8()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        Which of the following attribute is used to provide a unique name to an element?
+        <br>
+        <div id="q9_opt1"><input type="radio" name="Ques9" id="q9_op1" value="a">class<br></div>
+        <div id="q9_opt2"><input type="radio" name="Ques9" id="q9_op2" value="b">id<br></div>
+        <div id="q9_opt3"><input type="radio" name="Ques9" id="q9_op3" value="c">unique<br></div>
+        <div id="q9_opt4"><input type="radio" name="Ques9" id="q9_op4" value="d">type<br></div>
+        <button class="show" onclick="show_ques9()">Show Answer</button>
+    </div>
+    <br>
+    <div class="Questions">
+        The correct syntax to print ordered list from 10 to 5 :
+        <br>
+        <div id="q10_opt1"><input type="radio" name="Ques10" id="q10_op1" value="a">&lt;ol type="1" start="10" reversed&gt;<br></div>
+        <div id="q10_opt2"><input type="radio" name="Ques10" id="q10_op2" value="b">&lt;ol type="1" start="10" end="5" reversed&gt;<br></div>
+        <div id="q10_opt3"><input type="radio" name="Ques10" id="q10_op3" value="c">&lt;ol type="1" start="10"&gt;<br></div>
+        <div id="q10_opt4"><input type="radio" name="Ques10" id="q10_op4" value="d">None<br></div>
+        <button class="show" onclick="show_ques10()">Show Answer</button>
+    </div>
+    <br>
+    <button id="submit_Quiz" onclick="Check_Answers()" >Get Your Score</button>     
+
+    <table border="1">
+        <tr>
+            <td id="title_result" colspan="2">Quiz Performance</td>
+        </tr>
+        <tr>
+            <td>Total Number of Questions : </td>
+            <td><p id="total_questions">0</p></td>
+        </tr>
+        <tr>
+            <td>Number of Question Seen : </td>
+            <td><p id="seen_questions">0</p></td>
+        </tr>
+        <tr>
+            <td>Number of Correct Attempted Questions : </td>
+            <td><p id="correct_questions">0</p></td>
+        </tr>
+        <tr>
+            <td>Number of Wrong Attempted Questions : </td>
+            <td><p id="wrong_questions">0</p></td>
+        </tr>
+    </table>
+    
+    <button id="Thankyoupage" onclick="end_here()">Next</button>
+    <div id="end">
+        <div id="about" >
+            <span><b>About Us</b></span><br>
+            This Website is designed and made by Harsh jadav<br>
+            This is Specially designed to practice Web Development Skills<br><br>
+            <span><b>Upcoming Feature : </b></span>
+            <br>
+            - Try to add more and more Questions !
+        </div><br>
+       
+        <br>
+        <div id="copyright">
+            <marquee>© All Copyrights reserved to TEAM</marquee>
+        </div>
+    </div>
+</body>
+</html>

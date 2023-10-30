@@ -1,0 +1,133 @@
+body 
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+#idpassword
+{
+    margin:485px;
+    margin-top: 120px;
+    margin-left: unset;
+    font-size: xx-large;
+    background: black;
+    color: yellow;
+    font-weight: 500;
+}
+div
+{
+    width:100%;
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+    font-size:50px;
+    opacity: 1;
+}
+
+div#login
+{
+    background-position: 50% -10%;
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 500px;
+    height: 500px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input
+{
+    opacity: 1;
+}
+form
+{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display:inline-block;
+}
+#status
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input
+{
+    border: 5px solid rgb(128 128 128 / 80%);
+    width: 393px;
+    height: 48px;
+    padding: 6px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgb(128 128 128 / 80%);
+    color: white;
+    outline: none;
+    display: block;
+}
+input:focus /* this is used on focus i.e., on selecting or using it or typig in it*/
+{
+    box-shadow: 5px 5px 20px #372323;
+}
+#login_submit /* submit button */
+{
+    background-color: #229c1e;
+    color: white;
+    width: 200px;
+    height: 56px;
+    padding: 5px;
+    /* margin-top: 70px; */
+    /* margin-left: 80px; */
+    /* margin-right: 80px; */
+    margin: auto;
+    margin-top: 43px;
+    outline: none;
+    display: b1lock;
+    border-radius: 30px;
+    font-size: 31px;
+    font-weight: bold;
+    border: 0;
+}
+#login_submit:hover
+{
+    cursor: pointer;
+    background-color: #137510;
+}
+input[type="text"],input[type="password"]
+{
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: bold;
+    padding-left: 22px;
+    color:white;
+}
+::placeholder
+{
+    color:white;
+    opacity:0.8;
+}
+marquee
+{
+    margin: 0px;
+}
+#College
+{
+    background-color: red;
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+}
+h3
+{
+    margin-bottom: 50px;
+}
+#quiz{
+    margin-left: 530px;
+    margin-top: 60px;
+    height: 450px;
+}
